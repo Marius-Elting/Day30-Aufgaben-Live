@@ -1,3 +1,55 @@
-#text {
-    color: pink;
+@font-face {
+    font-family: FAST;
+    src: url("../Faster_One/FasterOne-Regular.ttf");
+}
+
+* {
+    font-family: FAST;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+
+}
+
+div {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+    margin-top: 30vh;
+    border-radius: 3px;
+}
+
+input {
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    border: 3px solid transparent;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    border: 3px solid transparent
+}
+
+button:hover {
+    border: 3px solid blueviolet;
+    border-radius: 3px;
+}
+
+input:focus {
+    border: 3px solid blueviolet;
+    border-radius: 3px;
 }
