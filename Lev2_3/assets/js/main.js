@@ -32,5 +32,5 @@ function hinzufuegen() {
 
 function zurueck() {
     arrayOutput.pop();
-    outputP.innerHTML = arrayOutput;
+    outputP.innerHTML = arrayOutput.join(" ");
 }
